@@ -40,7 +40,7 @@ public class Guess_Game {
             }
             Random rm = new Random();
             int num = rm.nextInt(100);
-            System.out.println(num);
+//            System.out.println(num);
             int lives = 5;
             while (lives > 0) {
                 if(lives < 5) {
